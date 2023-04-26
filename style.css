@@ -41,6 +41,7 @@ nav {
 nav ul {
     display: flex;
     justify-content: space-around;
+    padding-inline-start: 0;
 }
 
 nav ul li {
@@ -55,4 +56,54 @@ nav ul li a {
     font-style: italic;
     font-weight: bold;
     color: #333;
+}
+
+@media (max-width: 850px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo {
+    display: flex;
+    flex-direction: column;
+  }
+  
+}
+
+@media (max-width: 510px) {
+  header {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .logo {
+    align-self: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  nav ul li {
+    padding: 1px 5px;
+    border: 1px solid #eee;
+  }
+
+}
+
+@media (max-width:380px) {
+  .logo {
+    width: 50vw;
+  }
+
+  .logo img {
+    width: 30vw;
+    max-width: none;
+  }
+
+  .logo a {
+    display: none;
+  }
 }
