@@ -58,6 +58,87 @@ nav ul li a {
     color: #333;
 }
 
+#portada {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.portada-cont {
+  width: 80%;
+  max-width: 1200px;
+  margin-top: 60px;
+  display: flex;
+  gap: 5px;
+}
+
+.portada-cont-info {
+  width: 50%;
+}
+
+.portada-cont-info h1 {
+  font-size: 36px;
+  color:#333;
+}
+
+.portada-cont-info p {
+  font-size: 22px;
+  color:#111;
+  font-weight: 300;
+}
+
+.portada-cont-info button {
+  background-color: #fff;
+  border: 1px solid #555;
+  border-radius: 5px;
+  margin: 0 5px 0 0;
+}
+
+.portada-cont-img {
+  width: 50%;
+  max-width: 600px;
+  box-shadow: #555 1px 1px 5px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.portada-cont-img img {
+  width: 100%;
+}
+
+.portada-about {
+  width: 80%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portada-separador {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  
+}
+
+.portada-separador img {
+  
+}
+
+.portada-about h2 {
+  font-size: 28px;
+  color: #333;
+  align-self: center;
+}
+
+.portada-about p {
+  font-size: 20px;
+  font-weight: 300;
+  color: #111;
+}
+
 @media (max-width: 850px) {
   header {
     flex-direction: column;
