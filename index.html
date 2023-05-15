@@ -6,104 +6,108 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Christian Mugione</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/mediaqueries.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
 </head>
 
 <body>
-  <div class="container">
-    <header>
-      <div class="logo">
-        <img src="./img/logo-cm.png" alt="Logo de Christian Mugione">
-        <a href="#">Christian Mugione</a>
-      </div>
-      <nav>
-        <ul>
-          <li><a href="#portada"><i class="bi bi-file-person"></i> Nosotros</a></li>
-          <li><a href="#beneficios"><i class="bi bi-card-checklist"></i> Servicios</a></li>
-          <li><a href="#clientes"><i class="bi bi-people-fill"></i> Clientes</a></li>
-          <li><a href="#contacto"><i class="bi bi-chat-dots-fill"></i> Contacto</a></li>
-        </ul>
-      </nav>
-    </header>
-    <section id="portada">
-      <div class="portada-cont">
-        <div class="portada-cont-info">
-          <h1>Lo que Puedas Imaginar, y más...</h1>
-          <p>Sabemos convertir en realidad las ideas que van a llevar tu empresa a destacarse en internet.</p>
-          <div class="botones">
-            <button>CONTACTAME</button>
-            <button>MAS INFO</button>
-          </div>
-        </div>
-        <div class="portada-cont-img">
-          <img src="./img/coding.jpg" alt="Woman coding">
-        </div>
-      </div>
-      <div class="portada-separador">
-        <img src="./img/pngwing.com.png" alt="Linea divisoria">
-      </div>
-      <div class="portada-about">
-        <h2>Quiénes somos...</h2>
-        <p>Somos una empresa de programadores que buscan nuevos desafíos para generar proyectos cada vez más eficaces.
-          Tenemos la visión de proyectar la correcta propagación de la mente a través del espacio tiempo y mucha más
-          información relevante para rellenar este espacio de texto.</p>
-      </div>
-    </section>
-
-    <section id="beneficios">
-      <h2>Nuestros Beneficios</h2>
-      <p>Nuestros puntos fuertes para darle lo mejor a tu empresa...</p>
-      <div class="cards">
-        <div class="card">
-          <img src="/img/responsive.png" alt="">
-          <h3>Sitios Adaptables</h3>
-          <p>Tu sitio web se adaptará automáticamente al tamaño de pantalla de cada visitante.</p>
-        </div>
-        <div class="card">
-          <img src="/img/creatividad.png" alt="">
-          <h3>Creatividad</h3>
-          <p>Aportamos nuestra experiencia y creatividad para mejorar tu proyecto.</p>
-        </div>
-        <div class="card">
-          <img src="/img/seguridad.png" alt="">
-          <h3>Seguridad</h3>
-          <p>Brindamos las herramientas más modernas en materia de seguridad para que tus datos estén protegidos.</p>
+  <header>
+    <div class="logo">
+      <img src="./img/logo-cm.png" alt="Logo de Christian Mugione">
+      <a href="#">Christian Mugione</a>
+    </div>
+    <nav class="navbar">
+      <label for="menu-toggle" class="menu-label">
+        <i class="bi bi-list menu-icon"></i>
+      </label>
+      <input type="checkbox" id="menu-toggle">
+      <ul class="navbar-list">
+        <li><a href="#portada"><i class="bi bi-file-person"></i> Nosotros</a></li>
+        <li><a href="#beneficios"><i class="bi bi-card-checklist"></i> Servicios</a></li>
+        <li><a href="#clientes"><i class="bi bi-people-fill"></i> Clientes</a></li>
+        <li><a href="#contacto"><i class="bi bi-chat-dots-fill"></i> Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="portada">
+    <div class="portada-cont">
+      <div class="portada-cont-info">
+        <h1>Lo que Puedas Imaginar, y más...</h1>
+        <p>Sabemos convertir en realidad las ideas que van a llevar tu empresa a destacarse en internet.</p>
+        <div class="botones">
+          <button>CONTACTAME</button>
+          <button>MAS INFO</button>
         </div>
       </div>
-    </section>
-    <section id="clientes">
-      <h2>Nuestros Clientes</h2>
-      <div class="marcas">
-        <img src="/img/nike.png" alt="">
-        <img src="/img/amazon.png" alt="">
-        <img src="/img/burgerking.png" alt="">
-        <img src="/img/coca.png" alt="">
+      <div class="portada-cont-img">
+        <img src="./img/coding.jpg" alt="Woman coding">
       </div>
-    </section>
-    <section id="contacto">
-      <div class="contacto-container">
-        <div class="contacto-info">
-          <h2>Contacto</h2>
-          <p id="city">Bahía Blanca, Argentina</p>
-
-          <p><i class="bi bi-geo-alt"></i> Calle Thompson 333</p>
-          <p><i class="bi bi-envelope"></i> info@carpiana.com</p>
-          <p><i class="bi bi-phone"></i> +542915727241</p>
-
-        </div>
-        <img src="/img/contacto.png" alt="Contacto">
-      </div>
-
-
-
-    </section>
-
-
-    <footer>
-      <img src="/img/logo-cm.png" alt="Logo">
-    </footer>
+    </div>
+    <div class="portada-separador">
+      <img src="./img/pngwing.com.png" alt="Linea divisoria">
+    </div>
+  </section>
+  <div class="portada-about">
+    <h2>Quiénes somos...</h2>
+    <p>Somos una empresa de programadores que buscan nuevos desafíos para generar proyectos cada vez más eficaces.
+      Tenemos la visión de proyectar la correcta propagación de la mente a través del espacio tiempo y mucha más
+      información relevante para rellenar este espacio de texto.</p>
   </div>
+
+  <section id="beneficios">
+    <h2>Nuestros Beneficios</h2>
+    <p>Nuestros puntos fuertes para darle lo mejor a tu empresa...</p>
+    <div class="cards">
+      <div class="card">
+        <img src="/img/responsive.png" alt="">
+        <h3>Sitios Adaptables</h3>
+        <p>Tu sitio web se adaptará automáticamente al tamaño de pantalla de cada visitante.</p>
+      </div>
+      <div class="card">
+        <img src="/img/creatividad.png" alt="">
+        <h3>Creatividad</h3>
+        <p>Aportamos nuestra experiencia y creatividad para mejorar tu proyecto.</p>
+      </div>
+      <div class="card">
+        <img src="/img/seguridad.png" alt="">
+        <h3>Seguridad</h3>
+        <p>Brindamos las herramientas más modernas en materia de seguridad para que tus datos estén protegidos.</p>
+      </div>
+    </div>
+  </section>
+  <section id="clientes">
+    <h2>Nuestros Clientes</h2>
+    <div class="marcas">
+      <img src="/img/nike.png" alt="">
+      <img src="/img/amazon.png" alt="">
+      <img src="/img/burgerking.png" alt="">
+      <img src="/img/coca.png" alt="">
+    </div>
+  </section>
+  <section id="contacto">
+    <div class="contacto-container">
+      <div class="contacto-info">
+        <h2>Contacto</h2>
+        <p id="city">Bahía Blanca, Argentina</p>
+
+        <p><i class="bi bi-geo-alt"></i> Calle Thompson 333</p>
+        <p><i class="bi bi-envelope"></i> info@carpiana.com</p>
+        <p><i class="bi bi-phone"></i> +542915727241</p>
+
+      </div>
+      <img src="/img/contacto.png" alt="Contacto">
+    </div>
+
+
+
+  </section>
+
+
+  <footer>
+    <img src="/img/logo-cm.png" alt="Logo">
+  </footer>
+
 </body>
 
 </html>
