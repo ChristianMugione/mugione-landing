@@ -60,7 +60,15 @@
   }
 
   .contacto-info {
-    width: auto;
+    width: 55%;
+  }
+
+  #city {
+    font-size: 1.5em;
+  }
+
+  .contacto-info p {
+    font-size: 1.3em;
   }
 
   .contacto-container img {
@@ -94,5 +102,37 @@
   .portada-cont-info button {
     font-size: 18px;
     font-weight: 600;
+  }
+
+  .cards {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 95%;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .card-text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contacto-container {
+    width: 95%;
+    font-size: 2.5vw;
+  }
+}
+
+@media (max-width: 576px) {
+  .portada-cont-info p {
+    font-weight: 500;
+  }
+
+  .portada-cont-info button {
+    font-weight: 500;
+    padding: 5px 20px;
   }
 }
