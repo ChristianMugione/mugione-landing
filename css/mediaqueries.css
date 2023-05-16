@@ -36,71 +36,63 @@
   #menu-toggle:checked + .navbar-list {
     display: flex;
   }
+
+  #beneficios p {
+    font-size: 20px;
+    margin-block-start: 0;
+  }
+
+  .cards {
+    width: 95%;
+  }
+
+  .card h3 {
+    font-size: 1.5em;
+  }
+
+  .marcas img {
+    width: 20%;
+  }
+
+  .contacto-container {
+    width: 95%;
+    gap: 15px;
+  }
+
+  .contacto-info {
+    width: auto;
+  }
+
+  .contacto-container img {
+    width: 45%;
+  }
 }
 
 @media (max-width: 768px) {
-  nav i {
-    display: none;
-  }
-
-  .portada-cont-info {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-  }
-
-  .portada-cont-info h1,
-  .portada-cont-info p {
-    text-align: center;
-  }
-
-  .botones {
-    display: flex;
-    justify-content: center;
-  }
-
   .portada-cont-img {
     display: none;
   }
 
-  .portada-separador img {
-    width: 320px;
-  }
-}
-
-@media (max-width: 576px) {
-  header {
-    /* flex-direction: row; */
-    align-items: center;
+  #portada {
+    background-image: url(../img/coding.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 
-  .logo {
-    align-self: center;
-  }
-
-  nav ul {
-    flex-direction: row;
-    justify-content: flex-start;
-  }
-
-  nav ul li {
-    padding: 1px 5px;
-  }
-
-  .portada-cont {
-    margin-top: 10px;
-  }
-
-  .portada-cont-info h1 {
-    font-size: 22px;
+  .portada-cont-info {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 85%);
+    border-radius: 10px;
+    padding: 0 30px 30px 30px;
   }
 
   .portada-cont-info p {
-    font-size: 18px;
+    font-weight: 600;
   }
 
-  .portada-separador img {
-    width: 220px;
+  .portada-cont-info button {
+    font-size: 18px;
+    font-weight: 600;
   }
 }

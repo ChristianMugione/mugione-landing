@@ -96,7 +96,7 @@ header {
   margin-top: 60px;
   margin-bottom: 40px;
   display: flex;
-  gap: 5px;
+  gap: 20px;
 }
 
 .portada-cont-info {
@@ -253,7 +253,7 @@ header {
   margin-block-end: 0.5em;
 }
 
-#contacto img {
+.contacto-container img {
   width: 55%;
   border-radius: 10px;
 }
@@ -262,12 +262,12 @@ footer {
   display: flex;
   justify-content: center;
   margin-top: 80px;
-  background: rgb(64, 63, 99);
+  background: rgb(121, 119, 187);
   background: linear-gradient(
     90deg,
-    rgba(20, 20, 33, 1) 0%,
-    rgba(64, 63, 99, 1) 50%,
-    rgba(20, 20, 33, 1) 100%
+    rgba(50, 50, 83, 1) 0%,
+    rgb(121, 119, 187) 50%,
+    rgba(50, 50, 83, 1) 100%
   );
   padding: 20px;
   box-shadow: 0 -2px 5px rgb(20, 20, 33);
